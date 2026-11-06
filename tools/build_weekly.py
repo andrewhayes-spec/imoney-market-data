@@ -1,5 +1,5 @@
 """Build weekly.xml (RSS 2.0, one item) for the iMoney weekly market wrap email.
-Usage: python3 -I build_weekly.py <market-tracker.json> <out weekly.xml> <wrap.json>
+Usage (also prints nothing else): python3 -I build_weekly.py <market-tracker.json> <out weekly.xml> <wrap.json>
 wrap.json: {"title": str, "intro": str, "sections": [{"heading","body"}], "date": "YYYY-MM-DD"}
 """
 import json, sys, html, datetime
@@ -28,7 +28,7 @@ au10 = by(d['bond_yields'], 'country', 'Australia'); us10 = by(d['bond_yields'],
 key = (f'<p style="font-size:15px;margin:0 0 6px"><b>RBA cash rate</b> {e(rba.get("rate_label","—"))} · <b>Australian CPI</b> {pct(au.get("annual_pct"), False, 1)} ({e(au.get("period",""))}) · '
        f'<b>AUD/USD</b> {num(aud.get("rate"), 4)} · <b>10-yr yields</b> Australia {pct(au10.get("yield_pct"), False)}, US {pct(us10.get("yield_pct"), False)}</p>')
 secs = ''.join(f'<h3 style="color:#1540b3;font-size:17px;margin:20px 0 6px">{e(s["heading"])}</h3><p style="font-size:15px;line-height:1.6;margin:0">{e(s["body"])}</p>' for s in w['sections'])
-warn = ('<p style="font-size:12px;color:#5f6772;line-height:1.5;margin-top:24px;border-top:1px solid #e3dccf;padding-top:12px"><b>General advice warning.</b> This email is general information and market commentary only. '
+warn = ('<p style="font-size:12px;color:#5f6772;line-height:1.5;margin-top:24px;border-top:1px solid #e3dccf;padding-top:12px"><b>General advice warning.</b> This wrap is general information and market commentary only. '
         'It does not take into account your objectives, financial situation or needs and is not a recommendation to buy or sell any investment. Before acting on it, consider whether it is appropriate for you and read the relevant '
         'Product Disclosure Statement and Target Market Determination. Past performance is not a reliable indicator of future performance. Figures are from public market reports and official releases and may have changed since. '
         'iMoney Pty Ltd ABN 75 163 810 820 is a Corporate Authorised Representative (No. 000448872) of AD Advisory Services Pty Ltd ABN 68 005 830 802, AFSL 237058. '
@@ -62,3 +62,5 @@ xml = f'''<?xml version="1.0" encoding="UTF-8"?>
 '''
 open(out, 'w').write(xml)
 print('ok', len(xml))
+# Also write the post body on its own, for the HubSpot blog post.
+open(out.rsplit('/', 1)[0] + '/weekly-body.html' if '/' in out else 'weekly-body.html', 'w').write(body)
