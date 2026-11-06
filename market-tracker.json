@@ -1,0 +1,257 @@
+{
+ "updated": "2026-11-06T10:35:00+11:00",
+ "indices": [
+  {
+   "index": "S&P/ASX 200",
+   "market": "Australia",
+   "level": 8952.0,
+   "change_pct": -1.25,
+   "as_of": "2026-11-06",
+   "status": "Intraday (approx 10:35 AEDT)",
+   "source": "ABC News markets live 06-11-26"
+  },
+  {
+   "index": "S&P 500",
+   "market": "United States",
+   "level": 7353.73,
+   "change_pct": -4.36,
+   "as_of": "2026-11-05",
+   "status": "Close",
+   "source": "Fox Business / CNBC 05-11-26"
+  },
+  {
+   "index": "Nasdaq Composite",
+   "market": "United States",
+   "level": 24315.0,
+   "change_pct": -5.52,
+   "as_of": "2026-11-05",
+   "status": "Close",
+   "source": "Fox Business / CNBC 05-11-26"
+  },
+  {
+   "index": "MSCI World (USD)",
+   "market": "Global developed",
+   "level": 4921.7,
+   "change_pct": 1.48,
+   "as_of": "2026-11-04",
+   "status": "Close",
+   "source": "Investing.com / MarketScreener"
+  },
+  {
+   "index": "FTSE 100",
+   "market": "United Kingdom",
+   "level": 10782.66,
+   "change_pct": -0.43,
+   "as_of": "2026-11-05",
+   "status": "Close",
+   "source": "Fidelity UK / Share Talk 05-11-26"
+  },
+  {
+   "index": "Shanghai Composite",
+   "market": "China",
+   "level": 3689.91,
+   "change_pct": 0.1,
+   "as_of": "2026-11-05",
+   "status": "Close",
+   "source": "HKEX Stock Connect / Investing.com"
+  },
+  {
+   "index": "Shenzhen Component",
+   "market": "China",
+   "level": 11471.09,
+   "change_pct": 1.2,
+   "as_of": "2026-11-05",
+   "status": "Close",
+   "source": "HKEX Stock Connect"
+  },
+  {
+   "index": "Hang Seng",
+   "market": "Hong Kong",
+   "level": 24796.98,
+   "change_pct": 3.67,
+   "as_of": "2026-11-05",
+   "status": "Close",
+   "source": "Yahoo Finance / HKEX"
+  }
+ ],
+ "audusd": [
+  {
+   "date": "2026-11-01",
+   "rate": 0.7031,
+   "source": "MTFX"
+  },
+  {
+   "date": "2026-11-02",
+   "rate": 0.6998,
+   "source": "MTFX"
+  },
+  {
+   "date": "2026-11-03",
+   "rate": 0.6966,
+   "source": "MTFX"
+  },
+  {
+   "date": "2026-11-04",
+   "rate": 0.7006,
+   "source": "MTFX"
+  },
+  {
+   "date": "2026-11-05",
+   "rate": 0.6944,
+   "source": "Wise"
+  },
+  {
+   "date": "2026-11-06",
+   "rate": 0.6931,
+   "source": "ABC News (morning)"
+  }
+ ],
+ "cash_rates": [
+  {
+   "bank": "RBA",
+   "country": "Australia",
+   "rate_label": "4.85%",
+   "rate": 4.85,
+   "change_bp": 25.0,
+   "decision_date": "2026-11-03",
+   "next_meeting": "2026-12-08",
+   "note": "Fifth hike of 2026; 6-3 vote; highest since 2008"
+  },
+  {
+   "bank": "Federal Reserve",
+   "country": "United States",
+   "rate_label": "3.75–4.00%",
+   "rate": 4.0,
+   "change_bp": 0.0,
+   "decision_date": "2026-10-28",
+   "next_meeting": "2026-12",
+   "note": "Held 10-2; two dissents wanted a hike"
+  },
+  {
+   "bank": "Bank of England",
+   "country": "United Kingdom",
+   "rate_label": "4.00%",
+   "rate": 4.0,
+   "change_bp": 25.0,
+   "decision_date": "2026-11-05",
+   "next_meeting": "",
+   "note": "First hike since 2023; 8-1 vote"
+  },
+  {
+   "bank": "PBOC (1-yr LPR)",
+   "country": "China",
+   "rate_label": "3.00%",
+   "rate": 3.0,
+   "change_bp": 0.0,
+   "decision_date": "2026-10-20",
+   "next_meeting": "2026-11-20",
+   "note": "Unchanged 17 straight months"
+  }
+ ],
+ "inflation": [
+  {
+   "country": "Australia",
+   "measure": "CPI (monthly)",
+   "annual_pct": 4.3,
+   "period": "Sep 2026",
+   "released": "2026-10-28",
+   "target": "2–3%",
+   "underlying": "Trimmed mean 3.6%",
+   "source": "ABS"
+  },
+  {
+   "country": "United States",
+   "measure": "CPI-U",
+   "annual_pct": 3.7,
+   "period": "Sep 2026",
+   "released": "2026-10-14",
+   "target": "2% (PCE)",
+   "underlying": "Core 2.6%",
+   "source": "BLS"
+  },
+  {
+   "country": "United Kingdom",
+   "measure": "CPI",
+   "annual_pct": 3.5,
+   "period": "Sep 2026",
+   "released": "2026-10-21",
+   "target": "2%",
+   "underlying": "Core 2.8%",
+   "source": "ONS"
+  },
+  {
+   "country": "China",
+   "measure": "CPI",
+   "annual_pct": 0.9,
+   "period": "Sep 2026",
+   "released": "2026-10-14",
+   "target": "",
+   "underlying": "",
+   "source": "NBS"
+  }
+ ],
+ "bond_yields": [
+  {
+   "country": "Australia",
+   "tenor": "10-yr",
+   "yield_pct": 5.0,
+   "change_bp": -9.0,
+   "as_of": "2026-11-05",
+   "source": "Trading Economics"
+  },
+  {
+   "country": "United States",
+   "tenor": "10-yr",
+   "yield_pct": 4.88,
+   "change_bp": -1.0,
+   "as_of": "2026-11-05",
+   "source": "Investing.com"
+  },
+  {
+   "country": "United Kingdom",
+   "tenor": "10-yr",
+   "yield_pct": 5.29,
+   "change_bp": null,
+   "as_of": "2026-10-29",
+   "source": "Trading Economics (latest found)"
+  }
+ ],
+ "commentary": [
+  {
+   "order": 1,
+   "heading": "US midterms whipsaw Wall Street",
+   "body": "The Democrats' sweep of both houses of Congress first sparked a relief rally on Wednesday: the Dow gained about 3% and the S&P 500 1.6% as investors priced in less policy uncertainty and an earlier end to the Iran conflict, which sent Brent crude down roughly 8% to around US$95. The mood reversed on Thursday as investors dumped AI and chip stocks on fears a Democrat-led Congress will slow the data-centre build-out. The Nasdaq fell 5.5%, its worst day since April 2025, closing in correction territory more than 10% below its 6 October record, while the S&P 500 lost 4.4% and the VIX volatility index jumped about 70%. Oil bounced 4% after tanker attacks in the Middle East.",
+   "as_of": "2026-11-06"
+  },
+  {
+   "order": 2,
+   "heading": "ASX: best day since April 2025, then a softer Friday",
+   "body": "The ASX 200 rose 2.6% to 9,065 on Thursday, its strongest session since April 2025. Tech (+10%) led after NextDC surged 51% on stake-building by Goodman Group and Digital Realty, with miners up 7.6%; energy fell as oil slid. This morning the index opened about 1.2% lower in Wall Street's wake, a milder hit than elsewhere in Asia, where Korean and Taiwanese futures pointed to falls of 7% or more and Japan's almost 6%.",
+   "as_of": "2026-11-06"
+  },
+  {
+   "order": 3,
+   "heading": "Rates: the RBA and BoE tighten, the Fed waits",
+   "body": "The RBA lifted the cash rate 25 bp to 4.85% on Tuesday, its fifth hike this year and the highest since 2008, after September CPI rose to 4.3% (trimmed mean 3.6%) on housing and fuel costs. A 6–3 vote and the removal of its tightening bias suggest a pause is likely at the 8 December meeting, and the Australian dollar slipped below 70 US cents. The Bank of England raised its rate to 4% on Thursday, its first hike since 2023, helping turn the FTSE 100 from a near-record intraday high to a 0.4% loss. The Fed held at 3.75–4.00% in October with two members wanting a hike; with US inflation at 3.7%, futures price a December increase.",
+   "as_of": "2026-11-06"
+  },
+  {
+   "order": 4,
+   "heading": "Bonds and the dollar",
+   "body": "Yields eased as oil fell and investors sought safety: Australia's 10-year sits near 5.00%, a 10-week low, and the US 10-year around 4.88%, close to a two-month low. The Aussie dollar is around 69.3 US cents.",
+   "as_of": "2026-11-06"
+  },
+  {
+   "order": 5,
+   "heading": "China and Hong Kong",
+   "body": "After the CSI 300's 8.5% slump in October, its worst month since 2016, Beijing's support signals (regulator meetings and PBOC liquidity) have steadied mainland shares; the Shanghai Composite was flat on Thursday near 3,690. The Hang Seng jumped 3.7% to a five-week high on tech before the US sell-off. Inflation remains subdued at 0.9% and the loan prime rate has been on hold at 3.00% for 17 months.",
+   "as_of": "2026-11-06"
+  },
+  {
+   "order": 6,
+   "heading": "What to watch",
+   "body": "The US October jobs report (released early Saturday morning, Sydney time); Macquarie's half-year result today; whether the AI sell-off spreads further; China's October CPI on 9 November; and the next RBA (8 December) and Fed (December) decisions.",
+   "as_of": "2026-11-06"
+  }
+ ]
+}
