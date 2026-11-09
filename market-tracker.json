@@ -1,90 +1,80 @@
 {
- "updated": "2026-11-06T10:35:00+11:00",
+ "updated": "2026-11-10T11:05:00+11:00",
  "indices": [
   {
    "index": "S&P/ASX 200",
    "market": "Australia",
-   "level": 8952.0,
-   "change_pct": -1.25,
-   "as_of": "2026-11-06",
-   "status": "Intraday (approx 10:35 AEDT)",
-   "source": "ABC News markets live 06-11-26"
+   "level": 9093.0,
+   "change_pct": 0.7,
+   "as_of": "2026-11-10",
+   "status": "Intraday (opening, approx 10:00 AEDT)",
+   "source": "ABC News markets live 10-11-26"
   },
   {
    "index": "S&P 500",
    "market": "United States",
-   "level": 7353.73,
-   "change_pct": -4.36,
-   "as_of": "2026-11-05",
+   "level": 7549.94,
+   "change_pct": 2.35,
+   "as_of": "2026-11-09",
    "status": "Close",
-   "source": "Fox Business / CNBC 05-11-26"
+   "source": "AP / Yahoo Finance 09-11-26"
   },
   {
    "index": "Nasdaq Composite",
    "market": "United States",
-   "level": 24315.0,
-   "change_pct": -5.52,
-   "as_of": "2026-11-05",
+   "level": 25253.14,
+   "change_pct": 2.74,
+   "as_of": "2026-11-09",
    "status": "Close",
-   "source": "Fox Business / CNBC 05-11-26"
+   "source": "AP / Yahoo Finance 09-11-26"
   },
   {
    "index": "MSCI World (USD)",
    "market": "Global developed",
-   "level": 4921.7,
-   "change_pct": 1.48,
-   "as_of": "2026-11-04",
+   "level": 4739.93,
+   "change_pct": -0.43,
+   "as_of": "2026-11-06",
    "status": "Close",
-   "source": "Investing.com / MarketScreener"
+   "source": "MarketScreener / Yahoo Finance"
   },
   {
    "index": "FTSE 100",
    "market": "United Kingdom",
-   "level": 10782.66,
-   "change_pct": -0.43,
-   "as_of": "2026-11-05",
+   "level": 10782.87,
+   "change_pct": 1.02,
+   "as_of": "2026-11-09",
    "status": "Close",
-   "source": "Fidelity UK / Share Talk 05-11-26"
+   "source": "Fidelity UK / Share Talk 09-11-26"
   },
   {
    "index": "Shanghai Composite",
    "market": "China",
-   "level": 3689.91,
-   "change_pct": 0.1,
-   "as_of": "2026-11-05",
+   "level": 3660.79,
+   "change_pct": 0.32,
+   "as_of": "2026-11-09",
    "status": "Close",
-   "source": "HKEX Stock Connect / Investing.com"
+   "source": "HKEX Stock Connect / Google Finance"
   },
   {
    "index": "Shenzhen Component",
    "market": "China",
-   "level": 11471.09,
-   "change_pct": 1.2,
-   "as_of": "2026-11-05",
+   "level": 11145.49,
+   "change_pct": -0.27,
+   "as_of": "2026-11-09",
    "status": "Close",
    "source": "HKEX Stock Connect"
   },
   {
    "index": "Hang Seng",
    "market": "Hong Kong",
-   "level": 24796.98,
-   "change_pct": 3.67,
-   "as_of": "2026-11-05",
+   "level": 24448.95,
+   "change_pct": -0.13,
+   "as_of": "2026-11-09",
    "status": "Close",
-   "source": "Yahoo Finance / HKEX"
+   "source": "Hang Seng Indexes / Investing.com"
   }
  ],
  "audusd": [
-  {
-   "date": "2026-11-01",
-   "rate": 0.7031,
-   "source": "MTFX"
-  },
-  {
-   "date": "2026-11-02",
-   "rate": 0.6998,
-   "source": "MTFX"
-  },
   {
    "date": "2026-11-03",
    "rate": 0.6966,
@@ -103,6 +93,16 @@
   {
    "date": "2026-11-06",
    "rate": 0.6931,
+   "source": "ABC News (morning)"
+  },
+  {
+   "date": "2026-11-09",
+   "rate": 0.6887,
+   "source": "Yahoo Finance (ASX close)"
+  },
+  {
+   "date": "2026-11-10",
+   "rate": 0.6926,
    "source": "ABC News (morning)"
   }
  ],
@@ -124,7 +124,7 @@
    "rate": 4.0,
    "change_bp": 0.0,
    "decision_date": "2026-10-28",
-   "next_meeting": "2026-12",
+   "next_meeting": "2026-12-09",
    "note": "Held 10-2; two dissents wanted a hike"
   },
   {
@@ -182,11 +182,11 @@
   {
    "country": "China",
    "measure": "CPI",
-   "annual_pct": 0.9,
-   "period": "Sep 2026",
-   "released": "2026-10-14",
+   "annual_pct": 0.7,
+   "period": "Oct 2026",
+   "released": "2026-11-09",
    "target": "",
-   "underlying": "",
+   "underlying": "Core 0.8%",
    "source": "NBS"
   }
  ],
@@ -194,64 +194,64 @@
   {
    "country": "Australia",
    "tenor": "10-yr",
-   "yield_pct": 5.0,
-   "change_bp": -9.0,
-   "as_of": "2026-11-05",
+   "yield_pct": 5.03,
+   "change_bp": 3.0,
+   "as_of": "2026-11-09",
    "source": "Trading Economics"
   },
   {
    "country": "United States",
    "tenor": "10-yr",
-   "yield_pct": 4.88,
-   "change_bp": -1.0,
-   "as_of": "2026-11-05",
-   "source": "Investing.com"
+   "yield_pct": 4.87,
+   "change_bp": 2.0,
+   "as_of": "2026-11-09",
+   "source": "CNBC / Bahnsen Group"
   },
   {
    "country": "United Kingdom",
    "tenor": "10-yr",
-   "yield_pct": 5.29,
-   "change_bp": null,
-   "as_of": "2026-10-29",
-   "source": "Trading Economics (latest found)"
+   "yield_pct": 5.14,
+   "change_bp": -2.0,
+   "as_of": "2026-11-09",
+   "source": "CNBC"
   }
  ],
  "commentary": [
   {
    "order": 1,
-   "heading": "US midterms whipsaw Wall Street",
-   "body": "The Democrats' sweep of both houses of Congress first sparked a relief rally on Wednesday: the Dow gained about 3% and the S&P 500 1.6% as investors priced in less policy uncertainty and an earlier end to the Iran conflict, which sent Brent crude down roughly 8% to around US$95. The mood reversed on Thursday as investors dumped AI and chip stocks on fears a Democrat-led Congress will slow the data-centre build-out. The Nasdaq fell 5.5%, its worst day since April 2025, closing in correction territory more than 10% below its 6 October record, while the S&P 500 lost 4.4% and the VIX volatility index jumped about 70%. Oil bounced 4% after tanker attacks in the Middle East.",
-   "as_of": "2026-11-06"
+   "heading": "Wall Street bounces back from its worst week since April 2025",
+   "body": "US shares fell sharply last week as investors dumped AI and chip stocks after the Democrats won both houses of Congress: the Nasdaq lost 3.4% and the S&P 500 2.7%. Friday steadied things, helped by a much stronger-than-expected jobs report (165,000 new jobs against about 65,000 forecast, with unemployment down to 4.1%). On Monday the S&P 500 jumped 2.35% to 7,550, its best day since April, and the Nasdaq rose 2.7% as chipmakers rebounded and analysts called the AI sell-off overdone. Brent crude fell about 6% to around US$92 after President Trump played down the chance of new strikes on Iran, easing inflation worries. Nvidia bucked the rally, falling about 4% on a board investigation into whether a foreign intelligence effort targeted its chief executive.",
+   "as_of": "2026-11-10"
   },
   {
    "order": 2,
-   "heading": "ASX: best day since April 2025, then a softer Friday",
-   "body": "The ASX 200 rose 2.6% to 9,065 on Thursday, its strongest session since April 2025. Tech (+10%) led after NextDC surged 51% on stake-building by Goodman Group and Digital Realty, with miners up 7.6%; energy fell as oil slid. This morning the index opened about 1.2% lower in Wall Street's wake, a milder hit than elsewhere in Asia, where Korean and Taiwanese futures pointed to falls of 7% or more and Japan's almost 6%.",
-   "as_of": "2026-11-06"
+   "heading": "ASX: flat Monday, firmer start today",
+   "body": "The ASX 200 slipped 0.5% on Friday to 9,020.8 but still gained 1.3% for the week. On Monday it dipped below 9,000 before closing 0.1% higher at 9,029.7: miners rose 2.9% (BHP, Lynas and James Hardie led), while the banks fell, with ANZ down 3.2% after its full-year result. Goodman Group gained 1.9% after confirming it and Digital Realty hold a 9.9% stake in NextDC. This morning the index opened 0.7% higher at about 9,093 following Wall Street, with gold near US$4,145 an ounce and firmer copper supporting miners while lower oil weighs on energy stocks.",
+   "as_of": "2026-11-10"
   },
   {
    "order": 3,
-   "heading": "Rates: the RBA and BoE tighten, the Fed waits",
-   "body": "The RBA lifted the cash rate 25 bp to 4.85% on Tuesday, its fifth hike this year and the highest since 2008, after September CPI rose to 4.3% (trimmed mean 3.6%) on housing and fuel costs. A 6–3 vote and the removal of its tightening bias suggest a pause is likely at the 8 December meeting, and the Australian dollar slipped below 70 US cents. The Bank of England raised its rate to 4% on Thursday, its first hike since 2023, helping turn the FTSE 100 from a near-record intraday high to a 0.4% loss. The Fed held at 3.75–4.00% in October with two members wanting a hike; with US inflation at 3.7%, futures price a December increase.",
-   "as_of": "2026-11-06"
+   "heading": "Rates: strong US jobs keep a Fed hike in play",
+   "body": "The RBA's cash rate is 4.85% after last week's fifth hike of the year, with a pause widely expected at the 8 December meeting. In the US, the strong October jobs figures keep alive the chance the Fed lifts its 3.75–4.00% range on 9 December, although wages are growing only 3.1% a year, behind 3.7% inflation. US October inflation figures land overnight and will be the key test. The Bank of England sits at 4% after last week's hike.",
+   "as_of": "2026-11-10"
   },
   {
    "order": 4,
    "heading": "Bonds and the dollar",
-   "body": "Yields eased as oil fell and investors sought safety: Australia's 10-year sits near 5.00%, a 10-week low, and the US 10-year around 4.88%, close to a two-month low. The Aussie dollar is around 69.3 US cents.",
-   "as_of": "2026-11-06"
+   "body": "Australia's 10-year yield is around 5.03%, close to its lowest since August, and the US 10-year about 4.87%. UK 10-year gilt yields have eased to around 5.1%, also near their lowest since late August, as investors sought safety during the tech sell-off. The Australian dollar is steady at about 69.3 US cents.",
+   "as_of": "2026-11-10"
   },
   {
    "order": 5,
    "heading": "China and Hong Kong",
-   "body": "After the CSI 300's 8.5% slump in October, its worst month since 2016, Beijing's support signals (regulator meetings and PBOC liquidity) have steadied mainland shares; the Shanghai Composite was flat on Thursday near 3,690. The Hang Seng jumped 3.7% to a five-week high on tech before the US sell-off. Inflation remains subdued at 0.9% and the loan prime rate has been on hold at 3.00% for 17 months.",
-   "as_of": "2026-11-06"
+   "body": "China's inflation slowed to 0.7% in October (forecast 0.8%), with core inflation at 0.8%, as cheaper food offset a 22% jump in petrol prices. Factory-gate prices rose 5.7%, the fastest since June 2022, on energy costs, a widening gap that points to weak consumer demand. Beijing's State Council pledged on Friday to strengthen measures to stabilise the share market; the Shanghai Composite rose 0.3% on Monday to 3,661, while the Shenzhen Component and the Hang Seng (24,449) edged lower.",
+   "as_of": "2026-11-10"
   },
   {
    "order": 6,
    "heading": "What to watch",
-   "body": "The US October jobs report (released early Saturday morning, Sydney time); Macquarie's half-year result today; whether the AI sell-off spreads further; China's October CPI on 9 November; and the next RBA (8 December) and Fed (December) decisions.",
-   "as_of": "2026-11-06"
+   "body": "US October inflation (released early Wednesday morning, Sydney time) and US producer prices on Friday; whether the rebound in AI and chip stocks holds; developments at Nvidia; oil prices and US–Iran talks; China's loan prime rate on 20 November; and the RBA (8 December) and Fed (9 December) decisions.",
+   "as_of": "2026-11-10"
   }
  ]
 }
