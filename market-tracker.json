@@ -1,32 +1,32 @@
 {
- "updated": "2026-11-15T19:06:00+11:00",
+ "updated": "2026-11-17T09:23:00+11:00",
  "indices": [
   {
    "index": "S&P/ASX 200",
    "market": "Australia",
-   "level": 9065.8,
-   "change_pct": -0.89,
-   "as_of": "2026-11-13",
+   "level": 9044.7,
+   "change_pct": -0.41,
+   "as_of": "2026-11-16",
    "status": "Close",
-   "source": "Trading Economics 13-11-26 (after the close)"
+   "source": "CommBank/AAP and Sharetrader 16-11-26 (down 37.5 pts; prev close 9082.2)"
   },
   {
    "index": "S&P 500",
    "market": "United States",
-   "level": 7562.03,
-   "change_pct": -0.4,
-   "as_of": "2026-11-13",
+   "level": 7416.59,
+   "change_pct": -1.92,
+   "as_of": "2026-11-16",
    "status": "Close",
-   "source": "Investrade market review 13-11-26 (close 7562; down 30.37 pts)"
+   "source": "AP market report 16-11-26 (down 145.08 pts)"
   },
   {
    "index": "Nasdaq Composite",
    "market": "United States",
-   "level": 25136.27,
-   "change_pct": -0.91,
-   "as_of": "2026-11-13",
+   "level": 24509.76,
+   "change_pct": -2.49,
+   "as_of": "2026-11-16",
    "status": "Close",
-   "source": "Investrade market review 13-11-26 (close 25136; down 229.82 pts)"
+   "source": "AP market report 16-11-26 (down 626.52 pts)"
   },
   {
    "index": "MSCI World (USD)",
@@ -35,56 +35,46 @@
    "change_pct": -0.38,
    "as_of": "2026-11-13",
    "status": "Close",
-   "source": "MarketScreener (end-of-day 13-11-26; prev close 4870.41)"
+   "source": "MarketScreener (end-of-day 13-11-26; 16-11-26 close not yet confirmed)"
   },
   {
    "index": "FTSE 100",
    "market": "United Kingdom",
-   "level": 10906.0,
-   "change_pct": 0.4,
-   "as_of": "2026-11-13",
+   "level": 10881.55,
+   "change_pct": -0.19,
+   "as_of": "2026-11-16",
    "status": "Close",
-   "source": "Trading Economics 13-11-26"
+   "source": "Share Talk 16-11-26 (down 21.01 pts)"
   },
   {
    "index": "Shanghai Composite",
    "market": "China",
-   "level": 3634.4,
-   "change_pct": -0.59,
-   "as_of": "2026-11-13",
+   "level": 3602.6,
+   "change_pct": -0.87,
+   "as_of": "2026-11-16",
    "status": "Close",
-   "source": "Trading Economics 13-11-26"
+   "source": "Trading Economics 16-11-26"
   },
   {
    "index": "Shenzhen Component",
    "market": "China",
-   "level": 10968.8,
-   "change_pct": -2.05,
-   "as_of": "2026-11-13",
+   "level": 10690.8,
+   "change_pct": -2.53,
+   "as_of": "2026-11-16",
    "status": "Close",
-   "source": "Trading Economics 13-11-26"
+   "source": "Trading Economics 16-11-26"
   },
   {
    "index": "Hang Seng",
    "market": "Hong Kong",
-   "level": 23637.6,
-   "change_pct": -1.55,
-   "as_of": "2026-11-13",
+   "level": 23753.84,
+   "change_pct": 0.49,
+   "as_of": "2026-11-16",
    "status": "Close",
-   "source": "Trading Economics 13-11-26"
+   "source": "ad-hoc-news 16-11-26 (up 116.24 pts)"
   }
  ],
  "audusd": [
-  {
-   "date": "2026-11-08",
-   "rate": 0.6864,
-   "source": "Trading Economics (Friday close 06-11-26)"
-  },
-  {
-   "date": "2026-11-09",
-   "rate": 0.6867,
-   "source": "ABC News (Mon 09-11-26 6:47am AEDT)"
-  },
   {
    "date": "2026-11-10",
    "rate": 0.6926,
@@ -109,6 +99,16 @@
    "date": "2026-11-14",
    "rate": 0.6796,
    "source": "Trading Economics (after US session Fri 13-11-26)"
+  },
+  {
+   "date": "2026-11-16",
+   "rate": 0.6758,
+   "source": "CommBank/AAP (Mon 16-11-26 5pm AEDT)"
+  },
+  {
+   "date": "2026-11-17",
+   "rate": 0.6736,
+   "source": "Trading Economics (after US session Mon 16-11-26)"
   }
  ],
  "cash_rates": [
@@ -117,7 +117,7 @@
    "country": "Australia",
    "rate_label": "4.85%",
    "rate": 4.85,
-   "change_bp": 25.0,
+   "change_bp": 25,
    "decision_date": "2026-11-03",
    "next_meeting": "2026-12-08",
    "note": "Fifth hike of 2026; 6-3 vote; highest since 2008"
@@ -127,7 +127,7 @@
    "country": "United States",
    "rate_label": "3.75–4.00%",
    "rate": 4.0,
-   "change_bp": 0.0,
+   "change_bp": 0,
    "decision_date": "2026-10-28",
    "next_meeting": "2026-12-09",
    "note": "Held 10-2; two dissents wanted a hike"
@@ -137,7 +137,7 @@
    "country": "United Kingdom",
    "rate_label": "4.00%",
    "rate": 4.0,
-   "change_bp": 25.0,
+   "change_bp": 25,
    "decision_date": "2026-11-05",
    "next_meeting": null,
    "note": "First hike since 2023; 8-1 vote"
@@ -147,7 +147,7 @@
    "country": "China",
    "rate_label": "3.00%",
    "rate": 3.0,
-   "change_bp": 0.0,
+   "change_bp": 0,
    "decision_date": "2026-10-20",
    "next_meeting": "2026-11-20",
    "note": "Unchanged 17 straight months"
@@ -199,64 +199,64 @@
   {
    "country": "Australia",
    "tenor": "10-yr",
-   "yield_pct": 5.13,
-   "change_bp": 2.0,
-   "as_of": "2026-11-13",
-   "source": "Trading Economics 13-11-26"
+   "yield_pct": 5.14,
+   "change_bp": 1,
+   "as_of": "2026-11-16",
+   "source": "Trading Economics 16-11-26"
   },
   {
    "country": "United States",
    "tenor": "10-yr",
-   "yield_pct": 5.15,
-   "change_bp": 5.0,
-   "as_of": "2026-11-13",
-   "source": "Investrade / Trading Economics 13-11-26 (up about 30 bp on the week)"
+   "yield_pct": 5.13,
+   "change_bp": -2,
+   "as_of": "2026-11-16",
+   "source": "AP market report 16-11-26 (from 5.15% on Friday)"
   },
   {
    "country": "United Kingdom",
    "tenor": "10-yr",
-   "yield_pct": 5.34,
-   "change_bp": 6.0,
-   "as_of": "2026-11-13",
-   "source": "Trading Economics 13-11-26"
+   "yield_pct": 5.37,
+   "change_bp": 3,
+   "as_of": "2026-11-16",
+   "source": "Trading Economics 16-11-26"
   }
  ],
  "commentary": [
   {
    "order": 1,
-   "heading": "Chipmakers weigh on Wall Street",
-   "body": "US shares finished last week on a mixed note. On Friday the S&P 500 slipped 0.40% to 7,562 and the Nasdaq Composite fell 0.91% to 25,136, while the Dow managed a small gain. Semiconductor stocks led the selling, with AMD down almost 9% and Broadcom nearly 5%, as investors continued to digest Jensen Huang's departure as Nvidia chief executive. Most sectors outside technology ended higher, and the S&P 500 still rose about 2.5% across the week.",
-   "as_of": "2026-11-15"
+   "heading": "Chip selloff drags Wall Street lower",
+   "body": "US shares fell sharply on Monday as the selling in AI-linked stocks deepened. The S&P 500 dropped 1.92% to 7,416.6, its third straight loss, the Nasdaq Composite slid 2.49% to 24,509.8 and the Dow lost about 739 points (1.4%). Nvidia fell 4.1% ahead of its first results since Jensen Huang's resignation, with AMD, Broadcom and CoreWeave also lower. New US rules limiting remote access to advanced American chips through overseas data centres added to the pressure.",
+   "as_of": "2026-11-17"
   },
   {
    "order": 2,
-   "heading": "ASX gives back ground but holds a weekly gain",
-   "body": "The ASX 200 fell 0.89% to 9,065.8 on Friday, with nine of the 11 sectors in the red. Property trusts and financials were the weakest areas as the major bank chiefs appeared before a parliamentary committee, and miners eased alongside lower copper, iron ore and gold prices. Even so, the index ended the week around 0.5% higher.",
-   "as_of": "2026-11-15"
+   "heading": "Miners pull the ASX back",
+   "body": "The ASX 200 eased 0.41% to 9,044.7 on Monday, its third loss in a row. Materials fell more than 2% as copper and iron ore prices slipped after weak Chinese data, with BHP down 2.8%, Rio Tinto 2.2% and Fortescue 2.9%. Seven of the 11 sectors still rose: technology gained about 1%, led by Xero (up 4.7%) and WiseTech (up 2.8%), and property and consumer staples were firmer.",
+   "as_of": "2026-11-17"
   },
   {
    "order": 3,
-   "heading": "Asian tech sold; London at a three-month high",
-   "body": "Hong Kong's Hang Seng dropped 1.55% to 23,638, its third loss in a row, with Tencent off more than 3% on worries about the Nvidia leadership change and possible tighter US chip export rules. On the mainland, the Shanghai Composite eased 0.59% to 3,634 and the Shenzhen Component slid 2.05% to 10,969 as AI-linked shares were sold ahead of the Trump–Xi meeting. The FTSE 100 gained 0.40% to 10,906, supported by energy and healthcare, while the MSCI World index lost 0.38% to 4,852.",
-   "as_of": "2026-11-15"
+   "heading": "Mixed day in Asia and Europe",
+   "body": "China's October figures disappointed, with industrial output growth of 4.8% and retail sales growth of just 0.4%. Mainland shares fell, the Shanghai Composite down 0.87% to 3,602.6 and the Shenzhen Component down 2.53% to 10,690.8 as AI stocks were sold. Hong Kong's Hang Seng bucked the trend, rising 0.49% to 23,753.8 on gains in banks and consumer names. The FTSE 100 slipped 0.19% to 10,881.6 as miners weighed.",
+   "as_of": "2026-11-17"
   },
   {
    "order": 4,
    "heading": "Central banks and inflation",
-   "body": "No central bank changed rates last week. US producer prices rose 0.3% in October, a little under expectations, after consumer prices climbed 0.4% for the month. Markets are pricing a December Fed rate rise as close to certain. The RBA cash rate stays at 4.85% after November's increase, and the Bank of England rate is 4.00%.",
-   "as_of": "2026-11-15"
+   "body": "There were no rate decisions on Monday. The RBA cash rate remains 4.85%, the US federal funds range 3.75–4.00% and the Bank of England rate 4.00%. In the UK, markets lifted expectations of a further Bank of England rise in December ahead of Wednesday's inflation figures.",
+   "as_of": "2026-11-17"
   },
   {
    "order": 5,
    "heading": "Bonds, oil and the Australian dollar",
-   "body": "Bond yields moved higher. The US 10-year yield ended near 5.15%, about 30 basis points up on the week, and the UK 10-year finished around 5.34%, while Australia's 10-year was little changed near 5.13%. Brent crude held around US$96 a barrel. A firmer US dollar left the Australian dollar at about 67.96 US cents, its weakest level since late January.",
-   "as_of": "2026-11-15"
+   "body": "The US 10-year Treasury yield eased to 5.13% from 5.15%, while the UK 10-year rose about 3 basis points to 5.37%, its highest since late October. Australia's 10-year was steady at 5.14%. Brent crude fell 3.5% to about US$92.44 a barrel. The Australian dollar slipped to about 67.4 US cents, near its lowest level since late January.",
+   "as_of": "2026-11-17"
   },
   {
    "order": 6,
    "heading": "What to watch",
-   "body": "China's monthly activity figures are due on Monday and the US releases October retail sales on Tuesday. Nvidia reports quarterly results after the US close on Tuesday (Wednesday morning in Sydney), its first since the change of chief executive. Wednesday brings UK October inflation, minutes from the Fed's last meeting and the start of the Trump–Xi meeting. Australian October jobs data follow on Thursday and China's loan prime rate on Friday. Further out are Australia's October CPI and the Fed and RBA meetings on 9 and 8 December.",
-   "as_of": "2026-11-15"
+   "body": "The RBA releases the minutes of its November meeting today. Overnight, the US publishes October retail sales and Nvidia reports quarterly results after the US close (Wednesday morning in Sydney). Wednesday brings UK October inflation, minutes from the Fed's October meeting and the pricing of Anthropic's share float, which is due to list on the Nasdaq on Thursday. Australian October jobs data follow on Thursday, along with Walmart and Alibaba results, and China sets its loan prime rates on Friday.",
+   "as_of": "2026-11-17"
   }
  ]
 }
