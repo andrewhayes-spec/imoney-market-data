@@ -1,85 +1,80 @@
 {
- "updated": "2026-11-18T09:23:07+11:00",
+ "updated": "2026-11-19T09:23:15+11:00",
  "indices": [
   {
    "index": "S&P/ASX 200",
    "market": "Australia",
-   "level": 8883.2,
-   "change_pct": -1.79,
-   "as_of": "2026-11-17",
+   "level": 8821.8,
+   "change_pct": -0.69,
+   "as_of": "2026-11-18",
    "status": "Close",
-   "source": "Sharetrader 17-11-26 (down 161.5 pts; prev close 9044.7)"
+   "source": "Sharetrader and ABC News 18-11-26 (down 61.4 pts; prev close 8883.2)"
   },
   {
    "index": "S&P 500",
    "market": "United States",
-   "level": 7340.53,
-   "change_pct": -1.03,
-   "as_of": "2026-11-17",
+   "level": 7323.63,
+   "change_pct": -0.23,
+   "as_of": "2026-11-18",
    "status": "Close",
-   "source": "AP market report 17-11-26 (down 76.06 pts)"
+   "source": "Yahoo Finance 18-11-26 (down 16.90 pts)"
   },
   {
    "index": "Nasdaq Composite",
    "market": "United States",
-   "level": 24328.38,
-   "change_pct": -0.74,
-   "as_of": "2026-11-17",
+   "level": 24429.89,
+   "change_pct": 0.42,
+   "as_of": "2026-11-18",
    "status": "Close",
-   "source": "AP market report 17-11-26 (down 181.37 pts)"
+   "source": "Yahoo Finance 18-11-26 (up 101.50 pts)"
   },
   {
    "index": "MSCI World (USD)",
    "market": "Global developed",
-   "level": 4851.96,
-   "change_pct": -0.38,
-   "as_of": "2026-11-13",
+   "level": 4716.68,
+   "change_pct": -1.19,
+   "as_of": "2026-11-17",
    "status": "Close",
-   "source": "MarketScreener (end-of-day 13-11-26; 16-11-26 and 17-11-26 closes not yet confirmed)"
+   "source": "MarketScreener (end-of-day 17-11-26; 18-11-26 close not yet confirmed)"
   },
   {
    "index": "FTSE 100",
    "market": "United Kingdom",
-   "level": 10689.87,
-   "change_pct": -1.76,
-   "as_of": "2026-11-17",
+   "level": 10551.17,
+   "change_pct": -1.3,
+   "as_of": "2026-11-18",
    "status": "Close",
-   "source": "PA via LBC 17-11-26 (down 191.68 pts)"
+   "source": "ad-hoc-news 18-11-26 (down 138.70 pts)"
   },
   {
    "index": "Shanghai Composite",
    "market": "China",
-   "level": 3584.58,
-   "change_pct": -0.5,
-   "as_of": "2026-11-17",
+   "level": 3587.83,
+   "change_pct": 0.09,
+   "as_of": "2026-11-18",
    "status": "Close",
-   "source": "ad-hoc-news 17-11-26"
+   "source": "ad-hoc-news (Xinhua) 18-11-26"
   },
   {
    "index": "Shenzhen Component",
    "market": "China",
-   "level": 10638.52,
-   "change_pct": -0.49,
-   "as_of": "2026-11-17",
+   "level": 10659.41,
+   "change_pct": 0.2,
+   "as_of": "2026-11-18",
    "status": "Close",
-   "source": "ad-hoc-news 17-11-26"
+   "source": "ad-hoc-news (Xinhua) 18-11-26"
   },
   {
    "index": "Hang Seng",
    "market": "Hong Kong",
-   "level": 23508.17,
-   "change_pct": -1.03,
-   "as_of": "2026-11-17",
+   "level": 23294.75,
+   "change_pct": -0.91,
+   "as_of": "2026-11-18",
    "status": "Close",
-   "source": "ad-hoc-news and The Standard 17-11-26 (down about 245 pts)"
+   "source": "ad-hoc-news 18-11-26 (down 213.42 pts)"
   }
  ],
  "audusd": [
-  {
-   "date": "2026-11-11",
-   "rate": 0.6873,
-   "source": "AAP via Michael West (Wed 11-11-26 midday AEDT)"
-  },
   {
    "date": "2026-11-12",
    "rate": 0.6849,
@@ -109,6 +104,11 @@
    "date": "2026-11-18",
    "rate": 0.6742,
    "source": "Trading Economics (after US session Tue 17-11-26)"
+  },
+  {
+   "date": "2026-11-19",
+   "rate": 0.6713,
+   "source": "Trading Economics (after US session Wed 18-11-26)"
   }
  ],
  "cash_rates": [
@@ -177,9 +177,9 @@
   {
    "country": "United Kingdom",
    "measure": "CPI",
-   "annual_pct": 3.5,
-   "period": "Sep 2026",
-   "released": "2026-10-21",
+   "annual_pct": 3.6,
+   "period": "Oct 2026",
+   "released": "2026-11-18",
    "target": "2%",
    "underlying": "Core 2.8%",
    "source": "ONS"
@@ -199,64 +199,64 @@
   {
    "country": "Australia",
    "tenor": "10-yr",
-   "yield_pct": 5.14,
-   "change_bp": 2,
-   "as_of": "2026-11-17",
-   "source": "Trading Economics 17-11-26"
+   "yield_pct": 5.09,
+   "change_bp": -3,
+   "as_of": "2026-11-18",
+   "source": "Trading Economics 18-11-26"
   },
   {
    "country": "United States",
    "tenor": "10-yr",
-   "yield_pct": 5.1,
-   "change_bp": -2,
-   "as_of": "2026-11-17",
-   "source": "AP market report 17-11-26 (from 5.12% late Monday)"
+   "yield_pct": 5.07,
+   "change_bp": -4,
+   "as_of": "2026-11-18",
+   "source": "Yahoo Finance 18-11-26"
   },
   {
    "country": "United Kingdom",
    "tenor": "10-yr",
-   "yield_pct": 5.39,
-   "change_bp": 4,
-   "as_of": "2026-11-17",
-   "source": "Trading Economics 17-11-26"
+   "yield_pct": 5.3,
+   "change_bp": -9,
+   "as_of": "2026-11-18",
+   "source": "Trading Economics 18-11-26"
   }
  ],
  "commentary": [
   {
    "order": 1,
-   "heading": "Wall Street extends its slide before Nvidia results",
-   "body": "US shares fell for a fourth straight session on Tuesday, with about 17 in every 20 S&P 500 stocks lower. The S&P 500 lost 1.03% to 7,340.5, the Nasdaq Composite eased 0.74% to 24,328.4 and the Dow dropped 849 points (1.6%). Worries about AI valuations, interest rates and tighter regulation weighed, and banks fell on concerns about a pullback in AI spending. Nvidia closed 0.4% lower, then reported quarterly revenue of US$115.8 billion and guidance above expectations after the bell; its shares rose about 2.4% in after-hours trade.",
-   "as_of": "2026-11-18"
+   "heading": "Wall Street mixed as Nvidia slips despite strong results",
+   "body": "US shares finished mixed on Wednesday. The S&P 500 eased 0.23% to 7,323.6, its fifth straight fall, while the Nasdaq Composite gained 0.42% to 24,429.9 and the Dow lost 561 points (1.1%). Nvidia's revenue more than doubled from a year earlier to US$115.8 billion, but its shares closed 2.7% lower amid leadership uncertainty and a delayed quarterly filing. Health insurers dragged the Dow after a proposed government anti-fraud rule, with UnitedHealth and Humana each down about 6%.",
+   "as_of": "2026-11-19"
   },
   {
    "order": 2,
-   "heading": "Miners lead a broad ASX retreat",
-   "body": "The ASX 200 fell 1.79% to 8,883.2 on Tuesday, its lowest close since late October, with 10 of 11 sectors lower. Materials slumped 3.9% as iron ore prices eased: BHP dropped 5.0%, Fortescue 5.6% and Mineral Resources 8.5%. Financials lost 1.3%, with Macquarie down 3.8% and NAB 2.8%. Utilities were the only sector to rise, up 1.5%, helped by Origin Energy and APA.",
-   "as_of": "2026-11-18"
+   "heading": "ASX falls for a fifth day",
+   "body": "The ASX 200 dropped 0.69% to 8,821.8 on Wednesday, with nine of 11 sectors lower. Technology was weakest, down 2.3%, as TechnologyOne fell 6.1% and Xero 3.8%. Materials lost 1.1% as gold, silver and copper prices retreated: Evolution Mining fell 5.3% and Rio Tinto 1.7%. Lendlease slumped about 17%. Energy was the best sector, up 0.5%. Wage data showed pay rising 1.1% in the September quarter and 3.5% over the year.",
+   "as_of": "2026-11-19"
   },
   {
    "order": 3,
-   "heading": "Asia and Europe follow Wall Street lower",
-   "body": "Hong Kong's Hang Seng fell 1.03% to 23,508.2 as Alibaba, Tencent and Baidu were sold, Baidu after disappointing results. Mainland markets were steadier, the Shanghai Composite down 0.50% to 3,584.6 and the Shenzhen Component down 0.49% to 10,638.5. South Korea's Kospi dropped 2.6%. In London the FTSE 100 fell 1.76% to 10,689.9 as defence and technology stocks retreated.",
-   "as_of": "2026-11-18"
+   "heading": "Asia steadies, London slides on miners",
+   "body": "Hong Kong's Hang Seng fell 0.91% to 23,294.8, with JD.com down 7.2% after its results missed expectations. Mainland shares edged higher, the Shanghai Composite up 0.09% to 3,587.8 and the Shenzhen Component up 0.20% to 10,659.4, as technology themes stabilised during the APEC summit in Shenzhen. In London the FTSE 100 fell 1.30% to 10,551.2 as sharp falls in metal prices hit miners such as Antofagasta, Anglo American and Glencore.",
+   "as_of": "2026-11-19"
   },
   {
    "order": 4,
    "heading": "Central banks and inflation",
-   "body": "There were no rate decisions on Tuesday. Minutes of the RBA's November meeting confirmed a 6–3 vote to lift the cash rate to 4.85%, with the majority pointing to persistent inflation risks. The US federal funds range remains 3.75–4.00% and the Bank of England rate 4.00%. No new CPI figures were released.",
-   "as_of": "2026-11-18"
+   "body": "UK inflation rose to 3.6% in October from 3.5%, a little below forecasts, with core inflation steady at 2.8%. Minutes of the Fed's October meeting showed almost all officials saw further rate rises as likely, and a couple raised the idea of a move larger than a quarter point. The US federal funds range remains 3.75–4.00%, the RBA cash rate 4.85% and the Bank of England rate 4.00%.",
+   "as_of": "2026-11-19"
   },
   {
    "order": 5,
    "heading": "Bonds, oil and the Australian dollar",
-   "body": "The US 10-year Treasury yield eased to 5.10% from 5.12% as investors sought safety, while the UK 10-year rose about 4 basis points to 5.39% ahead of inflation data. Australia's 10-year was around 5.14%. Brent crude rose 0.8% to about US$93.14 a barrel. The Australian dollar held near 67.4 US cents, close to its lowest level since January.",
-   "as_of": "2026-11-18"
+   "body": "Yields eased. The US 10-year Treasury fell to about 5.07%, the UK 10-year dropped 9 basis points to 5.30% after the softer-than-expected inflation figure, and Australia's 10-year slipped to 5.09%. US crude fell about 3% to US$82.08 a barrel as US stockpiles rose, and gold dropped about 3.5%. The Australian dollar weakened to around 67.1 US cents, its lowest level since mid-January.",
+   "as_of": "2026-11-19"
   },
   {
    "order": 6,
    "heading": "What to watch",
-   "body": "Today brings Australia's September-quarter wage price index, UK October inflation and, overnight, minutes from the Fed's October meeting, along with the market's reaction to Nvidia's results. Anthropic's share float is due to debut on the Nasdaq. Australian October jobs data follow on Thursday, along with Walmart and Alibaba results, and China sets its loan prime rates on Friday.",
-   "as_of": "2026-11-18"
+   "body": "Australia's October jobs figures are out today, after the unemployment rate reached 4.7% in September. Anthropic's shares are due to begin trading on the Nasdaq tonight, and Walmart reports results. China sets its loan prime rates on Friday. Further ahead, the RBA meets on 8 December and the Fed on 9 December.",
+   "as_of": "2026-11-19"
   }
  ]
 }
